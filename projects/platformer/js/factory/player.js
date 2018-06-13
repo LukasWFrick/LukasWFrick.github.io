@@ -317,7 +317,7 @@
         game.physics.arcade.enable(asset);
     
         //  Player physics properties. Give the little guy a slight bounce.
-        asset.body.bounce.y = 0.4;
+        asset.body.bounce.y = 0;
         asset.body.gravity.y = 1000;
         // {"w":69,"h":107}
         asset.body.setSize(22, 95, 0, -3);

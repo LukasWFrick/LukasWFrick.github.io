@@ -79,7 +79,7 @@
                projectile.anchor.setTo(0.5, 0.5);
                projectile.angle = 90;
                projectile.alpha = 0;
-               let tween = game.add.tween(projectile).to( { x: 0 - projectile.height }, 2000, Phaser.Easing.Bounce.Out, true, delay || 0, -1);
+               let tween = game.add.tween(projectile).to( { x: 0 - projectile.height }, 2000, Phaser.Easing.Bounce.Out, false, delay || 0, -1);
                configureTween(tween, projectile, cannon);
                return cannon;
            }

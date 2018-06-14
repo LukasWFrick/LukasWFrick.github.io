@@ -12,8 +12,8 @@
     var racket = {
         physikz: {
             addRandomVelocity: function (body, area, multiplierX, multiplierY) {
-                multiplierX = (multiplierX) ? multiplierX : .6;
-                multiplierY = (multiplierY) ? multiplierY : .5;
+                multiplierX = (multiplierX) ? multiplierX : 6;
+                multiplierY = (multiplierY) ? multiplierY : 5;
                 
                 var tx = randomIntBetween(0, area.width);
                 var ty = randomIntBetween(0, area.height);
